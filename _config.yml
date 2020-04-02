@@ -11,7 +11,7 @@ description: Blog của Coder Quokka
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-url: "https://quokka.coder.github.io"
+url: "https://quokkacoder.github.io"
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -89,7 +89,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "quokka.coder.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "quokkacoder.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
