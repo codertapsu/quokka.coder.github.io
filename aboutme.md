@@ -1,16 +1,9 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Xem như đây là tiêu đề nhé
+subtitle: Bạn đang có ý định xem thông tin của tôi ư?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Tên tôi là Quokka. Không phải là "Quốc ca" đâu nhé. Là CHUỘT. CHUỘT QUOKKA
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Tin tôi đi ! Lúc nào buồn thì hãy tìm hình ảnh của tôi. Vì sao ư ? Đôi môi của tôi cơ bản là không thể không mỉm cười 🤣
