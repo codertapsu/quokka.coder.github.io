@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Xem như đây là tiêu đề nhé
-subtitle: Bạn đang có ý định xem thông tin của tôi ư?
+subtitle: Một vài đặc điểm nhận dạng của tôi
 ---
 
 Tên tôi là Quokka. Không phải là "Quốc ca" đâu nhé. Là CHUỘT. CHUỘT QUOKKA
