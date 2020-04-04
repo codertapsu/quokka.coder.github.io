@@ -43,7 +43,7 @@ Okay ! Chuyển qua làm ví dụ cho dễ hiểu nè:
 Quokka sẽ code demo sử dụng cách thường và cách dùng Named Routing rồi mình so sánh nhé !
 
 #### Quokka tạo cấu trúc các file như hình:
-![quokka](/img/flutter/post_route/file.png)
+![quokka](https://github.com/quokkacoder/quokkacoder.github.io/blob/master/img/flutter/post_route/file.PNG)
 #### Code trong các file như sau:
 
 ```
