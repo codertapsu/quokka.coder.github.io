@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ví dụ Hook Flutter
-image: /img/flutter/hook.png
+#image: /img/flutter/hook.png
 ---
 
 # Vấn đề
