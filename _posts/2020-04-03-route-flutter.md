@@ -274,7 +274,7 @@ case '/page2':
 
 # Kết luận:
 - Quokka thấy làm việc với Named Routing là cần thiết, và dễ dàng quản lý cấu trúc của dự án, nhất là các dự án lớn bao gồm nhiều màn hình.
-- Cấu hình Named Routers cho phép bạn quản lý Injection Dependences dễ dàng hơn (có thời gian Quokka sẽ demo cho mọi người)
+- Cấu hình Named Routers cho phép bạn quản lý Dependences Injection dễ dàng hơn (có thời gian Quokka sẽ demo cho mọi người)
 
 
 Cuối cùng thì... Cảm ơn mọi người đã theo dõi <3
