@@ -169,7 +169,7 @@ Như TDD, chúng ta sẽ viết test trước khi viết production code. Điề
 
 Trong Dart, các Test sẽ ở trong **test** folder và đó là một custom để cho **test folders** map tới **lib folders**. Hãy tạo tất cả các folder giống như folders gốc và cũng bao gồm cả folder "use case" trong "domain".
 
-[The test we're about to write goes into the usecases folder](https://i0.wp.com/resocoder.com/wp-content/uploads/2019/08/test-folder-structure.png?w=252&ssl=1)
+![The test we're about to write goes into the usecases folder](https://i0.wp.com/resocoder.com/wp-content/uploads/2019/08/test-folder-structure.png?w=252&ssl=1)
 
 Tạo một file mới trong *use case test folder* đặt tên là **get_concrete_number_trivia_test.dart**, và cũng ở đó nhưng trong *lib folder* ta tạo một **get_concrete_number_trivia.dart**.
 
