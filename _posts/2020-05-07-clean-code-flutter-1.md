@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Flutter TDD Clean Architecture Course [1]
-image: /img/hello_world.jpeg
+title: Flutter TDD Clean Architecture Course [1] - Explanation & Project Structure
+image: https://2.bp.blogspot.com/-a9nR2A_99yg/VMXJ2cBXE2I/AAAAAAAAB_s/O_gXstMAZ9I/s1600/tdd.png
 ---
 
-Giữ code clean và  tested là 2 điều quan trọng nhất đối với một developer. Trong Flutter, điều này càng đúng hơn với một số framework. Một mặt, đó là một cách để tạo ra ứng dụng một cách nhanh chóng. Mặt khác, các dự án bắt đầu "khủng hoảng" khi bạn áp dụng Business Logic ở mọi nơi. Ngay cả các pattern quản lý State như BLoC cũng không đủ để mở rộng dự án.
+*Giữ code clean và  tested là 2 điều quan trọng nhất đối với một developer. Trong Flutter, điều này càng đúng hơn với một số framework. Một mặt, đó là một cách để tạo ra ứng dụng một cách nhanh chóng. Mặt khác, các dự án bắt đầu "khủng hoảng" khi bạn áp dụng Business Logic ở mọi nơi. Ngay cả các pattern quản lý State như BLoC cũng không đủ để mở rộng dự án.*
 
 # The Secret to Maintainable Apps
 

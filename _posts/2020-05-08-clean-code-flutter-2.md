@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flutter TDD Clean Architecture Course [2]
-image: /img/hello_world.jpeg
+title: Flutter TDD Clean Architecture Course [2] - Entities & Use Cases
+image: https://2.bp.blogspot.com/-a9nR2A_99yg/VMXJ2cBXE2I/AAAAAAAAB_s/O_gXstMAZ9I/s1600/tdd.png
 ---
 
 Trong phần đầu tiên, bạn đã học các khái niệm cốt lõi của **Clean Architecture** trong Flutter. Chúng ta cũng đã tạo một loạt các empty folder cho các lớp **presentation**, **domain** và **data** trong project *Number Trivia App*. Bây giờ đã đến lúc bắt đầu thêm code vào các folder đó, tất nhiên  là sử dụng TDD.
