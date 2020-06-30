@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Dart Extension Methods Tutorial
+title: [Flutter] - Giới thiệu Dart Extension Methods
 ---
+
+[Nguồn](https://resocoder.com/2019/10/31/dart-extension-methods-tutorial-incl-generic-extensions-properties-operators/)
+
 Từ bản phát hành Dart 2.6, các nhà phát triển đã ra mắt một tính năng thú vị đó là **Extension**. Ta hãy đi tìm hiểu nó.
 
 # Set up Dart 2.6
@@ -15,11 +18,11 @@ environment:
 
 ```
 
-# Tại sao lại là Extension ?
+# Tại răng lại dùng Extension?
 
-Hầu như mọi ngôn ngữ nào cũng hỗ trợ extension, mang lại nhiều lợi ích cho coder. Chúng có thể biến các lớp utility với một loạt các static method thành một *tác phẩm nghệ thuật tuyệt đẹp* của riêng bạn.
+Hầu như mọi ngôn ngữ nào cũng hỗ trợ extension, mang lại nhiều lợi ích cho coder. Chúng có thể biến các lớp tiện ích có sẵn với một loạt các static method thành một *tác phẩm nghệ thuật tuyệt đẹp* của riêng bạn.
 
-Ví dụ chúng ta có đoạn mã sau:
+Ví dụ Quokka có đoạn mã sau:
 
 ```
 main.dart
@@ -44,7 +47,7 @@ Có vẻ sử dụng StringUtil class là dư thừa. Nếu chúng ta có thể 
 
 # Extension giải quyết vấn đề
 
-Thay vì định nghĩa một lớp util, bạn có thể định nghĩa một `extension` nó sẽ được applied (`on`) một type nhất định. Sau đó sử dụng `this` để có được `instance` hiện tại như thể bạn đang ở trong một regular class thông thường.
+Thay vì định nghĩa một lớp util, bạn có thể định nghĩa một `extension` nó sẽ được áp dụng (`on`) một type nhất định. Sau đó sử dụng `this` để có được `instance` hiện tại, như thể bạn đang xử lý code ở trong một regular class thông thường.
 
 ```
 main.dart
@@ -93,9 +96,9 @@ main() {
 }
 ```
 
-# Vấn đề về thừa kế
+# Vấn đề về kế thừa
 
-Giả sử bạn muốn thêm extensions vào `int`. Tất nhiên việc này có thể:
+Giả sử Quokka muốn thêm extensions vào `int`. Tất nhiên việc này là có thể:
 
 ```
 main.dart
@@ -106,9 +109,9 @@ extension IntExtensions on int {
 }
 ```
 
-Nhưng sau đó bạn lại muốn áp dụng nó cho `double`. Vậy bạn lại phải copy code thật mất thời gian.
+Nhưng sau đó Quokka lại muốn áp dụng nó cho `double`. Vậy ta lại phải copy code thật mất thời gian.
 
-Bạn lại chợt nhận ra rằng `int` và `double` đều là lớp con của `num`, vậy bạn sẽ định nghĩa một extension cho `num`:
+Quokka lại chợt nhận ra rằng `int` và `double` đều là lớp con của `num`, vậy ta sẽ định nghĩa một extension cho `num`:
 
 ```
 main.dart
@@ -119,7 +122,7 @@ extension NumExtensions on num {
 }
 ```
 
-Có vẻ như bạn đã giải quyết vấn đề. Nhưng... đó chỉ là bạn chưa chạy thử nó. Vì method trong extension có giá trị trả về là `num` nên nếu bạn gọi đến method đó, bạn cũng chỉ nhận được `num`  mà thôi:
+Có vẻ như Quokka đã giải quyết vấn đề. Nhưng... đó chỉ là khi ta chưa chạy thử nó. Vì method trong extension có giá trị trả về là `num` nên nếu bạn gọi đến method đó, bạn cũng chỉ nhận được `num`  mà thôi:
 
 ```
 main.dart
@@ -137,7 +140,7 @@ main() {
 
 # Generic extensions
 
-Ta sẽ giải quyết vấn đề kế thừa bằng generic type:
+Quokka sẽ giải quyết vấn đề kế thừa bằng *generic type*:
 
 ```
 main.dart
@@ -148,7 +151,7 @@ extension NumGenericExtensions<T extends num> on T {
 }
 ```
 
-Generics sẽ giúp câu lệnh `int anInt = 1.addTen();` hoạt động đúng. Nhưng hãy lưu ý là câu lệnh sau lại lỗi:
+Generics sẽ giúp câu lệnh `int anInt = 1.addTen();` hoạt động đúng. Nhưng hãy lưu ý là câu lệnh sau lại bị lỗi:
 
 
 ```
@@ -164,5 +167,5 @@ main() {
 # Bạn đã học được gì?
 
 Extension là một tính năng mạnh mẽ của Dart:
-- Bạn đã học cách tạo extension **properties**, **method** and **operators**
-- Cách giải quyết việc copy code bằng cách định nghĩa một extension trên lớp cơ sở có thể không phải luôn là một lựa chọn tốt nhất. Trong hầu hết các trường hợp bạn nên sử dụng **generic extensions**
+- Bạn đã học được cách tạo extension **properties**, **method** and **operators**
+- Cách giải quyết việc copy code bằng cách định nghĩa một extension trên base class có thể không phải luôn là một lựa chọn tốt nhất. Trong hầu hết các trường hợp bạn nên sử dụng **generic extensions**
