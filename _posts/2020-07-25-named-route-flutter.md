@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Navigation và Routing trong Flutter 
+title: Named Route trong Flutter 
 subtitle: Lại là mình - Quokka đây !
 tags: [flutter, route, navigation_name]
 ---
